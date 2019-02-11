@@ -1,7 +1,3 @@
--- Select burgers_db
-
-USE `burgers_db`;
-
 
 
 -- insert 3 burgers
