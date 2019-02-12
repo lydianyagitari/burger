@@ -2,8 +2,7 @@
 
     <center>
 
-        <!-- Left side (Burgers Available) -->
-
+ <!--Burgers Available on the left side-->
         <div class="col-md-4">
 
             <h3 class="submitFont">Burgers Available</h3>
@@ -12,7 +11,7 @@
 
 
 
-                <!-- Dynamically Add User Burgers Here -->
+                <!-- User's burgers are added here -->
 
                 {{#each burgers}}
 
@@ -26,7 +25,7 @@
 
                         <span class="input-group-btn">
 
-                            <button class="btn btn-success devour-button" type="submit">Devour It!</button>
+                            <button class="btn btn-success devour-button" type="submit">Eat It!</button>
 
                         </span>
 
@@ -50,17 +49,17 @@
 
 
 
-        <!-- Right side (Burgers Devoured) -->
+        <!-- Burgers Eaten on the right side -->
 
         <div class="col-md-4">
 
-            <h3 class="submitFont">Burgers Devoured</h3>
+            <h3 class="submitFont">Burgers Eaten</h3>
 
             <div id="alreadyEaten">
 
 
 
-                <!-- Dynamically Insert Devoured Burgers Here -->
+                <!-- Inserts Eaten Burgers Here -->
 
                 {{#each burgers}}
 

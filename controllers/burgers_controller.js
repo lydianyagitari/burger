@@ -5,13 +5,6 @@ var router = express.Router();
 var burger = require('../models/burger.js');
 
 
-
-
-
-//Setup Routes
-
-
-
 // Index Redirect
 
 router.get('/', function (req, res)
@@ -21,8 +14,6 @@ router.get('/', function (req, res)
         res.redirect('/index');
 
     });
-
-
 
 // Index Page 
 
@@ -38,15 +29,13 @@ router.get('/index', function (req, res)
                     burgers: data
                 };
 
-                //console.log(hbsObject);
+     //console.log(hbsObject);
 
                 res.render('index', hbsObject);
 
             });
 
     });
-
-
 
 // Create a New Burger
 
@@ -63,7 +52,6 @@ router.post('/burger/create', function (req, res)
             });
 
     });
-
 
 
 // Devour a Burger
