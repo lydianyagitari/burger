@@ -12,11 +12,11 @@ var burger =
 
 
 
-    selectAll: function (callback)
+    selectAll: function (burgers, callback)
 
     {
 
-      orm.selectAll(function (res)
+      orm.selectAll(burgers,function (res)
 
         {
 

@@ -71,6 +71,7 @@ selectAll: function (callback)
 }
 
   };
+
 // Export the ORM object in module.exports.
 
 module.exports = orm;
