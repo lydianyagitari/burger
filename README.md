@@ -20,8 +20,7 @@ open the app locally on your web browser using "http://localhost:3000/index"
 
 
 
-https://user-images.githubusercontent.com/42593741/52755309-1fca7180-2fc3-11e9-9d0e-04ed4076b8af.png
-
+![eat da burger - google chrome 2_13_2019 6_23_04 pm 2](https://user-images.githubusercontent.com/42593741/52755580-14c41100-2fc4-11e9-9621-1ea2acf5ffcb.png)
 
 
 
