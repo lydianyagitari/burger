@@ -18,14 +18,15 @@ To Acess this assignment:
 .connect to the server through "node server.js"
 open the app locally on your web browser using "http://localhost:3000/index"
 
+ SREENSHOTS
 
 Mobile View
-![eat da burger - google chrome 2_13_2019 6_23_04 pm 2](https://user-images.githubusercontent.com/42593741/52755580-14c41100-2fc4-11e9-9621-1ea2acf5ffcb.png)
+![potrait](https://user-images.githubusercontent.com/42593741/52903772-20901d00-31e8-11e9-9027-7eadf8e30a9d.PNG)
+
+![eat da burger - google chrome 2_16_2019 12_38_54 pm 2](https://user-images.githubusercontent.com/42593741/52903774-2554d100-31e8-11e9-8dcb-1a4109a09d95.png)
 
 
 
-Desktop View
-![eat da burger - google chrome 2_13_2019 6_21_10 pm 2](https://user-images.githubusercontent.com/42593741/52755623-2c9b9500-2fc4-11e9-9318-da8aab65a928.png)
 
 
 
