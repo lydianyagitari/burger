@@ -1,13 +1,6 @@
--- Select burgers_db
-
-USE "burgers_db";
-
-
-
--- insert 3 burgers
-
-INSERT INTO "burgers" (burger_name, devoured, date) VALUES ('whopper', false, CURRENT_TIMESTAMP);
-
-INSERT INTO "burgers" (burger_name, devoured, date) VALUES ('quater pounder', false, CURRENT_TIMESTAMP);
-
-INSERT INTO "burgers" (burger_name, devoured, date) VALUES ('chicken', false, CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Triple-Stacked Avocado Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cali-Chicken Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Southern Style Veggie Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Spicy Pepper Jack Mushroom Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Tequila Lime Burger', true);

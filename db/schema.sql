@@ -1,23 +1,13 @@
+-- Create the burgers_db database --
 CREATE DATABASE burgers_db;
+USE burgers_db;
 
-USE "burgers_db";
-
-
-
--- Create the table burgers
-
-CREATE TABLE "burgers"
-
+-- Create a burgers table with the required fields --
+CREATE TABLE burgers
 (
-
-	"id" INT NOT NULL AUTO_INCREMENT,
-
-	"burger_name" VARCHAR(255) DEFAULT,
-
-	"devoured" BOOLEAN DEFAULT false,
-
-	"date" TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-
-	PRIMARY KEY (id)
-
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+  	date DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  	PRIMARY KEY(id)
 );
